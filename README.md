@@ -8,15 +8,15 @@ Inspired by minimal dark terminal setups. Created by [Vyom Jain](https://github.
 | Role             | Hex       |
 |------------------|-----------|
 | Background       | `#0d0d0d` |
-| Foreground       | `#c4c4c4` |
-| Comments         | `#505050` |
-| Strings          | `#909090` |
-| Keywords         | `#e0e0e0` |
-| Functions        | `#bcbcbc` |
-| Variables        | `#acacac` |
-| Numbers          | `#b4b4b4` |
-| Types            | `#c8c8c8` |
-| Operators        | `#787878` |
+| Foreground       | `#d4d4d4` |
+| Comments         | `#686868` |
+| Strings          | `#aaaaaa` |
+| Keywords         | `#eeeeee` |
+| Functions        | `#cccccc` |
+| Variables        | `#c0c0c0` |
+| Numbers          | `#c8c8c8` |
+| Types            | `#d8d8d8` |
+| Operators        | `#8e8e8e` |
 
 ## Supported Tools
 
