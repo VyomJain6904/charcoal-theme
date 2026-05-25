@@ -23,6 +23,7 @@ Inspired by minimal dark terminal setups. Created by [Vyom Jain](https://github.
 - **bat** — syntax-highlighting cat clone
 - **Ghostty** — terminal emulator
 - **OpenCode** — AI coding CLI
+- **Neovim** — full colorscheme plugin → [charcoal.nvim](https://github.com/VyomJain6904/charcoal.nvim)
 
 ## Installation
 
@@ -67,6 +68,22 @@ Then add to `~/.config/opencode/opencode.json`:
 ```json
 { "theme": "charcoal" }
 ```
+
+### Neovim
+
+Install via lazy.nvim:
+
+```lua
+{
+  'VyomJain6904/charcoal.nvim',
+  priority = 1000,
+  config = function()
+    vim.cmd.colorscheme('charcoal')
+  end,
+}
+```
+
+Full plugin: [charcoal.nvim](https://github.com/VyomJain6904/charcoal.nvim)
 
 ## License
 
